@@ -1,0 +1,67 @@
+/* src/components/AboutSection.css */
+.about-section {
+    background-size: cover;
+    padding: 60px 0;
+}
+
+.about-new-section {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.about-new {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.about-new h3 {
+    font-size: 36px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.about-new p {
+    font-size: 18px;
+    color: #555;
+}
+
+.about-logo {
+    width: 100%;
+    max-width: 200px;
+    margin: 0 auto;
+    display: block;
+}
+
+.btn-six {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 20px;
+    transition: background-color 0.3s;
+}
+
+.btn-six:hover {
+    background-color: #0056b3;
+}
+
+.stats-row {
+    margin-top: 20px;
+}
+
+.stats-block {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.stats-block .small-txt {
+    font-size: 14px;
+    color: #999;
+}
+
+.stats-block .big-txt h3 {
+    font-size: 36px;
+    font-weight: bold;
+}

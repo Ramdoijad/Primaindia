@@ -1,0 +1,30 @@
+.custom-dropdown .submenu-item {
+  cursor: pointer;
+  width: 250px;
+  font-weight: 500;
+  font-size: 14px;
+  color: #ffffff
+}
+
+.custom-dropdown .submenu {
+  display: none;
+  position: absolute;
+  left: 100%; /* Position to the right of the parent */
+  top: 0;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  min-width: 200px; /* Adjust as needed */
+}
+
+.custom-dropdown .submenu-item:hover + .submenu,
+.custom-dropdown .submenu:hover {
+  display: block;
+}
+
+.custom-dropdown .dropdown-item {
+  color: #000;
+}
+
+.custom-dropdown .dropdown-item:hover {
+  background-color: #f8f9fa;
+}

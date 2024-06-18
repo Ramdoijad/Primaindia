@@ -1,0 +1,79 @@
+.header-style3-area {
+    background: #fff;
+    padding: 20px 0;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .header-style3-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .logo-box-style3 img {
+    max-width: 150px;
+  }
+  
+  .header-contact-info {
+    display: flex;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .header-contact-info li {
+    margin-right: 30px;
+  }
+  
+  .single-item {
+    display: flex;
+    align-items: center;
+  }
+  
+
+  
+  .single-item .text h3 {
+    margin: 0;
+    font-size: 18px;
+    color: #333;
+  }
+  
+  .single-item .text p {
+    margin: 0;
+    font-size: 14px;
+    color: #777;
+  }
+  
+  .topbar-style3-right {
+    display: flex;
+    align-items: center;
+  }
+  
+  .topbar-style3-right ul {
+    display: flex;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .topbar-style3-right ul li {
+    margin-left: 10px;
+  }
+  
+  .topbar-style3-right ul li a img {
+    width: 28px;
+    height: 28px;
+  }
+  .vertical-line {
+    width: 0.1px; /* Thickness of the line */
+    height:90px; /* Full height of the viewport */
+    background: #b7b7b7; /* Color of the line */
+    position: fixed; /* Fixed position */
+    top: 0;
+    left: 50%; /* Center the line horizontally */
+    transform: translateX(-50%);
+    margin-right: 100px/* Adjust for the line's width to perfectly center it */;
+    margin-top:10px;
+    margin-bottom: 10px;
+  }
+  

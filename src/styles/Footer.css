@@ -1,0 +1,120 @@
+.footer-area {
+  width: 100%;
+  background-color: #382456;
+  color: white;
+  padding: 60px 0; /* Reduced padding */
+}
+
+.footer-logo img {
+  max-width: 100%;
+  height: auto;
+  padding-bottom: 20px; /* Added padding for space below logo */
+}
+
+.contact-info-box ul {
+  list-style: none;
+  padding: 0;
+  font-size: 16px;
+}
+
+.contact-info-box ul li,
+.services-links ul li {
+    padding-bottom: 15px; /* Added padding below each list item */
+    border-bottom: 1px solid rgba(240, 225, 225, 0.1); /* Light black horizontal line */
+}
+
+.contact-info-box ul li h4 {
+  margin-bottom: 10px;
+  font-weight: bold; /* Made the text very bold */
+}
+
+.contact-info-box ul li hr {
+  margin-top: 5px;
+  background-color: white;
+}
+
+.services-links ul {
+  list-style: none;
+  padding: 0;
+  font-size: 16px;
+}
+
+.services-links ul li {
+  padding: 20px 0; /* Increased padding between list items */
+}
+
+.services-links ul li a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold; /* Made the text very bold */
+}
+
+.single-footer-widget {
+  margin-bottom: 20px; /* Increased margin bottom */
+}
+
+.img-holder video {
+  width: 100%;
+  height: auto;
+  margin-top: 20px; /* Added margin to create space above the video */
+}
+
+.footer-bottom-area {
+  background-color:white;
+  color: black;
+  padding: 40px 0; /* Increased padding for the footer bottom area */
+}
+
+.footer-bottom-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  padding: 20px 0; /* Added padding for the content */
+}
+
+.footer-bottom-content p {
+  margin: 0;
+  font-weight: bold; /* Made the text very bold */
+}
+
+.footer-bottom-content .footer-social-links {
+  display: flex;
+  align-items: center;
+  margin-top: 20px; /* Added margin to create space above the social links */
+}
+
+.footer-bottom-content .footer-social-links ul {
+  list-style: none;
+  padding: 0;
+  display: flex;
+}
+
+.footer-bottom-content .footer-social-links ul li {
+  margin: 0 10px; /* Increased margin between social links */
+}
+
+.footer-bottom-content .footer-social-links ul li a img {
+  width: 20px;
+  height: 20px;
+}
+
+/* Media queries for responsiveness */
+@media (max-width: 768px) {
+  .footer-bottom-content {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .footer-bottom-content .footer-social-links {
+    justify-content: center;
+    margin-top: 20px;
+  }
+}
+
+@media (max-width: 576px) {
+  .contact-info-box ul li,
+  .services-links ul li {
+    font-size: 10px;
+  }
+}
